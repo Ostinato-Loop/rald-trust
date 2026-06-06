@@ -1,0 +1,29 @@
+:root {
+  --bg: #050A0F;
+  --surface: #080F17;
+  --surface-2: #0C1520;
+  --border: rgba(255,255,255,0.07);
+  --border-2: rgba(255,255,255,0.12);
+  --text: #E8EDF3;
+  --muted: #6B7A8D;
+  --subtle: #3A4556;
+  --green: #00FF88;
+  --green-dim: rgba(0,255,136,0.08);
+  --trust: #00E5FF;
+  --trust-dim: rgba(0,229,255,0.08);
+  --security: #FF2E2E;
+  --privacy: #A855F7;
+  --verify: #00E5FF;
+  --ai: #FFD400;
+  --voice: #FF4FAD;
+  --eco: linear-gradient(135deg,#00FF88 0%,#0066FF 25%,#A855F7 50%,#FF2E2E 75%,#FFD400 100%);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,sans-serif;font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{line-height:1.2}
+.container{max-width:1060px;margin:0 auto;padding:0 24px}
+.section{padding:80px 0}
+.gradient-text{background:var(--eco);-webkit-background-clip:text;background-clip:text;color:transparent;background-size:300% 300%;animation:gs 10s ease infinite}
+@keyframes gs{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
