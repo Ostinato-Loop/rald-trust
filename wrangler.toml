@@ -1,0 +1,7 @@
+name = "rald-trust"
+pages_build_output_dir = "dist"
+compatibility_date = "2025-01-01"
+
+[vars]
+VITE_SITE_NAME = "RALD Trust Center"
+VITE_SITE_URL = "https://trust.rald.cloud"
